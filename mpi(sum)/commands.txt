@@ -1,0 +1,2 @@
+1.mpicc Sum.c -o sum
+2.mpirun -np 4 /sum

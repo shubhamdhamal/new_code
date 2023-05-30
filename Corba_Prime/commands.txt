@@ -1,0 +1,7 @@
+1st terminal:
+	1.idlj --fall PerfectSquare;
+	2.javac *.java PrimeApp/*.java
+	3.orbd -ORBInitialPort 1050&
+	4.java Server -ORBInitialPort 1050 -ORBInitialHost localhost&
+2nd Terminal:
+	1.java Client -ORBInitialPort 1050 -ORBInitialHost localhost

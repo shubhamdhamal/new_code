@@ -1,0 +1,4 @@
+1st Terminal:
+	java RPSServer
+2nd Terminal:
+	java RPSClient
